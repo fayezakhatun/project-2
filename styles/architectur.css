@@ -139,6 +139,21 @@ font-weight: 500;
  
 }
 
+#experience-badge{
+   padding: 45px 42px;
+   font-size: 1.5rem;
+   font-weight: 500;
+   margin-left: -100px;
+   margin-top: -100px;
+}
+#experience-year{
+   font-size: 4rem;
+   font-weight: 700;
+}
+
+.featured-architect img{
+   width: 100%;
+}
 
 /*some facts related styls*/
 .facts-container{
@@ -176,6 +191,7 @@ font-weight: 500;
  @media screen and (max-width: 576px) {
    .navbar, 
    .nav-links,
+   .features,
    .teams{
       flex-direction: column;
    }
@@ -199,6 +215,11 @@ font-weight: 500;
       margin-left: 20px;
    }
  }
+
+ #experience-badge{
+  margin-top: 20px;
+  margin-left: 20px; 
+ }
  
 /* sponsors related styles */
 .sponsors-info{
@@ -212,6 +233,12 @@ font-weight: 500;
 }
 .sponsors-companies img{
    filter: grayscale(100%);
+}
+#reserved{
+   background-color: burlywood;
+   margin-top: 130px;
+   padding: 40px 410px;
+   text-align: center;
 }
 
  /*medium size device*/
